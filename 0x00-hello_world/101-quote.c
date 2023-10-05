@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- *main - Entry point
+ *main - The program that prints function error
  *Return:(0)
  */
 int main(void)
