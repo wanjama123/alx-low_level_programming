@@ -17,7 +17,7 @@ for (l = 50; l < 58; l++)
 }
 if (l > m && m > n)
 {
-putcher(l);
+putchar(l);
 putchar(n);
 putchar(m);
 if (n != 56 || m != 57)
