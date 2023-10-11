@@ -1,15 +1,12 @@
 #include <stdio.h>
 
-
 /**
-* main - the main printing funtion
+* main - the main printing function
 * less than 4000000.
 * Return: 0.
 */
 
-
 int main(void)
-
 {
 
 int i = 0;
@@ -23,14 +20,12 @@ k += j;
 if (k % 2 == 0)
 
 sum += k;
-
 j = k - j;
 
 ++i;
-
 }
-printf("%ld", sum);
+
+printf("%08ld", sum);
 
 return (0);
-
 }
