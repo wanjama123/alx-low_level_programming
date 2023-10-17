@@ -2,22 +2,23 @@
 #include <stdio.h>
 
 /**
- * print_array - The function name
- * @a: parameter 1
- * @n: parameter
- */
-
+* print_array - Print the elements of an integer array with proper formatting.
+* @a: The array of integers
+* @n: The number of elements in the array
+*/
 void print_array(int *a, int n)
 {
-	int i;
+int i;
 
-	for (i = 0; i < n; i++)
-	{
-		printf("%d", a[i]);
-		{
-			if (i < n - 1)
-				printf(", ");
-		}
-		printf("\n");
-	}
+for (i = 0; i < n; i++)
+{
+printf("%d", a[i]);
+
+if (i < n - 1)
+{
+printf(", ");
+}
+}
+
+printf("\n");
 }
