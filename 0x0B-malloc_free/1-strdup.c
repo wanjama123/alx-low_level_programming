@@ -1,12 +1,13 @@
 #include "main.h"
 #include <stdlib.h>
-/**
- *  _srdup - duplicate a string.
- * @str: the string to duplicate.
- * Return: the string duplicated.
- */
 
-char *_srdup(char *str)
+/**
+*  _strdup - duplicate a string.
+* @str: the string to duplicate.
+* Return: the string duplicated.
+*/
+
+char *_strdup(char *str)
 {
 	int a = 0, i = 1;
 	char *s;
